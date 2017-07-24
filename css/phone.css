@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 0.3rem;
+  }
+  .slogan-title {
+    margin-bottom: 0.2rem;
+  }
+  .logo-href {
+    margin-left: 0.4rem;
+  }
+  .nav {
+    margin: 0.2rem 0 0 0;
+  }
+  .class-section {
+    padding: 0.7rem 0.35rem;
+  }
+  .class-item {
+    width: 31%;
+  }
+  .class-item:nth-last-of-type(1) {
+    margin-right: 0;
+  }
+  .manage ul {
+    padding: 0.55rem 0.35rem;
+  }
+  .manage .location li {
+    width: 30%;
+  }
+  .manage .speci-sty li {
+    width: 41%;
+    margin: 0.3rem 0.35rem;
+  }
+  .manage .speci-sty li div {
+    margin-left: 0.65rem;
+  }
+  .manage .asure li {
+    width: 30%;
+  }
+  .teacher ul li {
+    width: 45%;
+    margin: 0 0.15rem 0.3rem;
+  }
+  .percent-class {
+    margin: 0.7rem 0.3rem;
+    width: 2.9rem;
+  }
+  .web-lesson span {
+    padding-left: 0.3rem;
+  }
+  footer {
+    font-size: 0.2rem;
+  }
+}

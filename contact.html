@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/grid.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/phone.css"/>
+	<style>
+	html {
+  font-size: 50px;
+  -webkit-text-size-adjust: none;
+  height: 100%;
+}
+
+	</style>
+
+</head>
+<script src="js/config.js" type="text/javascript" charset="utf-8"></script>
+<body>
+	<header class="common-header container">
+	    <a class="logo-href col-md-4" href="javascript:void(0)"></a>
+	    <ul class="nav col-md-7">
+	        <li class="nav-item">
+	        	<a class="item-content" href="index.html">首页</a>
+	        </li>
+	        <li class="nav-item">
+	       	 	<a class="item-content" href="javascript:void(0)">课程设置</a>
+	       	 	<ul class="lesson-item">
+	       	 		<li><a href="classeweb.html">Web前端全栈工程师</a></li>
+	       	 		<li><a href="classpython.html">Python开发工程师</a></li>
+	       	 		<li><a href="classmachine.html">机器学习开发工程师</a></li>
+	       	 	</ul>
+	        	
+	        </li>
+	        <li class="nav-item">
+	        	<a class="item-content" href="asure.html">就业保障</a>
+	        </li>
+	        <li class="nav-item">
+	        	<a class="item-content" href="about.html">关于我们</a>
+	        </li>
+	        <li class="nav-item">
+	        	<a class="item-content item-active" href="contact.html">联系老师</a>
+	        </li>
+	        <!--<li class="nav-item">
+	        	<a class="item-content" href="javascript:void(0)">学习环境</a>
+	        </li>-->
+	    </ul>
+	</header>
+
+    <div class="web-lesson">
+         <span>联系老师报名</span> 
+         <div class="contact">
+             <div class="percent-class">
+                柯老师
+             </div>
+            <div class="percent-detail">
+               <p>电话：189 1120 7866</p>
+               <p>微信：189 1120 7866</p>
+            </div>
+         </div>
+    </div>
+    
+    <!--<div class="web-lesson">
+         <div class="contact">
+             <div class="percent-class">
+                柯老师
+             </div>
+            <div class="percent-detail">
+               <p>电话：189 1120 7866</p>
+               <p>微信：189 1120 7866</p>
+            </div>
+         </div>
+    </div>-->
+
+	<footer>
+		<div class="foot-content">
+			<div class="foot-left logo-href"></div>
+			<ul class="foot-right">
+				<li class="foot-item">
+					<a class="foot-item-content" href="index.html">首页</a>
+				</li>
+				<li class="foot-item">
+					<a class="foot-item-content" href="javascript:void(0)">专业设置</a>
+				</li>
+				<li class="foot-item">
+					<a class="foot-item-content" href="asure.html">就业保障</a>
+				</li>
+				<li class="foot-item">
+					<a class="foot-item-content last-item" href="about.html">关于我们</a>
+				</li>
+				<div class="clearfix"></div>
+				<p class="foot-phone">招生电话：5888887</p>
+			</ul>
+		</div>
+		<p class="copy-right">Copyright © 2017 GMO Internet, Inc. All Rights Reserved.</p>
+	</footer>
+	<script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.js"></script>
+	<script>
+		// nav tab 
+		$('.item-content').on('click', function(){
+			$('.item-content').each(function(){
+				$(this).removeClass('item-active');
+			})
+			$(this).addClass('item-active');
+		})
+		
+		// 等高
+		var arr= [],max_height = 0;
+		$('.web-lesson li').each(function(){
+			arr.push($(this).height());
+		})
+		var max = arr[0];
+		for(var i = 0; i < arr.length; i++){
+			if(max < arr[i]){
+				max = arr[i];
+			}
+		}
+		$('.web-lesson li').each(function(){
+			$(this).css('height',max + 'px');
+		})
+		
+		$('.same-height').each(function(){
+			if($(this).height()>max_height){
+				max_height = $(this).height()
+			}
+		})
+		$('.same-height').each(function(){
+			$(this).css('height',max_height + 'px');
+		})
+		$('.nav-item').eq(1).click(function(){
+			$('.lesson-item').show();
+		}).siblings().click(function(){
+			$('.lesson-item').hide();
+		})
+	</script>
+</body>
+</html>
