@@ -40,6 +40,9 @@
     width: 45%;
     margin: 0 0.15rem 0.3rem;
   }
+  .teacher ul li:nth-last-of-type(1) {
+    margin-left: 0.15rem;
+  }
   .percent-class {
     margin: 0.7rem 0.3rem;
     width: 2.9rem;
