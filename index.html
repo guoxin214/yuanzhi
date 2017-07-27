@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
-	<title>元智教育</title>
+	<meta name="Keywords" content="元智教育, Web前端,Python开发⼯工程师,机器学习,AI"/>
+	<title>元智教育-Web前端-Python开发⼯工程师-机器学习-AI</title>
 	<link rel="stylesheet" href="./css/grid.css">
 	<link rel="stylesheet" href="./css/index.css">
 	<link rel="stylesheet" type="text/css" href="./css/phone.css"/>
@@ -55,10 +56,10 @@
 	    </div>
 	</header>
 	<section class="class-section">
-		<h1>社会急需职业 热门技术掌握 直击名企高薪</h1>
+		<h1>社会急需的热门专业 直击名企高薪</h1>
 		<div class="class-item" onclick="location.href='classeweb.html'">
 			<div class="class-name">Web前端</br>全栈工程师</div>
-			<div class="class-name-item">Javascript程序设计</div>
+			<div class="class-name-item">JavaScript程序设计</div>
 			<div class="class-name-item">JS高级进阶</div>
 			<div class="class-name-item">DOM编程艺术</div>
 			<div class="class-name-item">平台及安全</div>
@@ -67,7 +68,7 @@
 		<div class="class-item" onclick="location.href='classpython.html'">
 			<div class="class-name">Python</br>开发工程师</div>
 			<div class="class-name-item">Python 入门</div>
-			<div class="class-name-item">LINUX基础</div>
+			<div class="class-name-item">Linux基础</div>
 			<div class="class-name-item">Git/GitHub操作</div>
 			<div class="class-name-item">数据库 基础入门</div>
 			<div class="class-name-item">项目级的系统实践</div>
@@ -85,13 +86,13 @@
 	<div class="double-class">
         <span>双学制</span>
         <p>引进国外大学及BAT内部学院教学体系。</p>
-        <p>从零开始循序渐进授课，夯实基础，保证每位同学均科学城并培养持续学习的能力。</p>
+        <p>从零开始循序渐进授课，夯实基础，保证每位同学均可学成,并培养持续学习的能力。</p>
         <div>  
             <h2>16个月</h2>
             <ul> 
                 <li>针对高中学历</li>
                 <li>通识课程学习</li>
-                <li>专业基础课学习</li>
+                <li>专业课学习</li>
                 <li>专业选修课学习</li>
                 <li>职业化素养课程学习</li>
             </ul>
@@ -99,10 +100,8 @@
         <div>  
             <h2>6个月</h2>
             <ul> 
-                <li>针对大专及以上         学历</li>
-                <li>通识课程学习</li>
-                <li>专业基础课学习</li>
-                <li>专业选修课学习</li>
+                <li>针对大专及以上         学历</li>               
+                <li>专业课学习</li>               
                 <li>职业化素养课程学习</li>
             </ul>
         </div>
@@ -118,7 +117,7 @@
             <li>
                 <h3></h3>
                 <h4>导师机制</h4>
-                <p>陪伴式教与学，导师全管理学生出勤情况、学习和生活；为学生制定目标与职业发展方案，指导学生成为一流工程师。</p>
+                <p>陪伴式教与学，导师全程管理学生出勤情况、学习和生活；为学生制定目标与职业发展方案，指导学生成为一流工程师。</p>
             </li>
             <li>
                 <h3></h3>
@@ -147,7 +146,7 @@
             <li>
                 <!--<h3><img src="img/images.png"/></h3>-->
                 <h4>夏志权</h4>
-                <p class="same-height">毕业于北京大学光华管理学院MBA，10年以上互联网技术开发和管理经验</p>
+                <p class="same-height">毕业于北京大学光华管理学院MBA，10年以上互联网技术开发和管理经验。</p>
                 <a class="detail1" href="teacher.html">&gt;&nbsp;&nbsp;&nbsp;&nbsp;查看详情</a>
             </li>
             <li>
@@ -178,19 +177,20 @@
 				<p class="foot-phone">招生电话：010-89798192</p>
 			</ul>
 		</div>
-		<p class="copy-right">Copyright © 2017 GMO Internet, Inc. All Rights Reserved.</p>
+		<p class="copy-right">元智合一科技有限公司 版权所有</p>
 	</footer>
 	<script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.js"></script>
 	<script>
 		// nav tab 
-		$('.item-content').on('click', function(){
-			$('.item-content').each(function(){
-				$(this).removeClass('item-active');
-			})
-			$(this).addClass('item-active');
-		})
-		$('.nav-item').eq(1).click(function(){
+//		$('.item-content').on('click', function(){
+//			$('.item-content').each(function(){
+//				$(this).removeClass('item-active');
+//			})
+//			$(this).addClass('item-active');
+//		})
+		$('.item-content').eq(1).click(function(){
 			$('.lesson-item').show();
+			
 		}).siblings().click(function(){
 			$('.lesson-item').hide();
 		})

@@ -1,6 +1,10 @@
 @media (max-width: 768px) {
+  header {
+    padding-bottom: 1.3rem;
+  }
   .slogan {
     font-size: 0.3rem;
+    padding-top: 1.2rem;
   }
   .slogan-title {
     margin-bottom: 0.2rem;
@@ -20,6 +24,12 @@
   .class-item:nth-last-of-type(1) {
     margin-right: 0;
   }
+  .lesson-item {
+    top: 0.45rem;
+  }
+  .lesson-item li {
+    font-size: 0.2rem;
+  }
   .manage ul {
     padding: 0.55rem 0.35rem;
   }
@@ -36,12 +46,21 @@
   .manage .asure li {
     width: 30%;
   }
+  .teacher {
+    padding: 0.7rem 0.35rem;
+  }
+  .teacher .detail {
+    right: 0.35rem;
+  }
+  .teacher h2 {
+    padding-left: 0.3rem;
+  }
   .teacher ul li {
-    width: 45%;
-    margin: 0 0.15rem 0.3rem;
+    width: 43%;
+    margin: 0 0.28rem 0.5rem;
   }
   .teacher ul li:nth-last-of-type(1) {
-    margin-left: 0.15rem;
+    margin-left: 0.28rem;
   }
   .lesson div img {
     margin: 0.17rem 0 0 0.35rem;
