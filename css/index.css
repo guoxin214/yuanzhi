@@ -565,7 +565,7 @@ header {
 }
 .lesson span {
   display: inline-block;
-  padding: 0.7rem 0 0.28rem 1.35rem;
+  padding: 0.7rem 0 0.28rem 1.12rem;
   margin-bottom: 0.15rem;
   border-bottom: solid 1px #e0e0e0;
   font-size: 0.38rem;
@@ -580,14 +580,14 @@ header {
   width: 1.8rem;
   height: 1.8rem;
   float: left;
-  margin: 0.17rem 0 0 1.35rem;
+  margin: 0.17rem 0 0 1.12rem;
 }
 .lesson .person-detail {
   font-size: 0.26rem;
   float: left;
   line-height: 2;
   width: 64%;
-  padding-left: 0.9rem;
+  padding-left: 1.12rem;
 }
 .web-lesson {
   width: 100%;
