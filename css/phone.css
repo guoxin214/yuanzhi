@@ -13,10 +13,11 @@
     margin-left: 0.4rem;
   }
   .nav {
-    margin: 0.2rem 0 0 0;
+    margin: 0.2rem 0 0 0.4rem;
+    float: left;
   }
   .class-section {
-    padding: 0.7rem 0.35rem;
+    padding: 0.7rem 0.35rem 0;
   }
   .class-item {
     width: 31%;
@@ -29,6 +30,9 @@
   }
   .lesson-item li {
     font-size: 0.2rem;
+  }
+  .double-class div ul {
+    margin-top: 0.3rem;
   }
   .manage ul {
     padding: 0.55rem 0.35rem;
@@ -78,6 +82,9 @@
   }
   .web-lesson span {
     padding-left: 0.3rem;
+  }
+  .enviroment h2 {
+    font-size: 0.38rem;
   }
   footer {
     font-size: 0.2rem;

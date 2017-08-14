@@ -395,7 +395,7 @@ header {
 .double-class div {
   width: 50%;
   float: left;
-  padding: 1rem 0 1rem 1.35rem;
+  padding: 0.5rem 0 0.5rem 1.3rem;
   box-sizing: border-box;
 }
 .double-class div h2 {
@@ -729,6 +729,47 @@ header {
 }
 .teacher ul li:nth-last-of-type(1) {
   margin: 0;
+}
+.enviroment h2 {
+  font-size: 0.3rem;
+  color: #4a4a4a;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.54rem 0;
+}
+.enviroment section {
+  overflow: hidden;
+}
+.enviroment section .content-list .img-container {
+  background: #fff;
+  margin: 7px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.enviroment section .content-list .img-container img {
+  margin-top: 9px;
+}
+.enviroment section .content-list p {
+  color: #666;
+  font-size: 0.2rem;
+  line-height: 1.5;
+  margin: 0.3rem 0.23rem 0.4rem 0.23rem;
+}
+.enviroment .sec-bg-col {
+  background: #f2f2f2;
+}
+.enviroment .swiper-container {
+  text-align: center;
+}
+.enviroment .swiper-container .school-corner {
+  color: #666;
+  font-size: 0.2rem;
+  text-align: center;
+  margin-bottom: 0.18rem;
+}
+.enviroment .swiper-container img {
+  width: 3.12rem;
+  height: auto;
 }
 footer {
   height: 2.57rem;
